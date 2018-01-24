@@ -1,4 +1,4 @@
-package com.core.compator;
+package com.core.comparable;
 
 public class Moive implements Comparable<Moive> {
 
@@ -17,6 +17,11 @@ public class Moive implements Comparable<Moive> {
 		this.rating = rating;
 	}
 
+	/*
+	 * (non-Javadoc)
+	 * 
+	 * @see java.lang.Comparable#compareTo(java.lang.Object)
+	 */
 	@Override
 	public int compareTo(Moive m) {
 		// TODO Auto-generated method stub
